@@ -7,6 +7,7 @@ gosukaApp.controller('OfferIndexController', ['$scope', 'Offer',
 
     function init() {
       Offer.query(function(response) {
+        console.log(response);
         $scope.offers = response;
       }, function(error) {
         console.log(error);
