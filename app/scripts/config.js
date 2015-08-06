@@ -1,6 +1,6 @@
 'use strict';
 
-gosukaApp.config(['$stateProvider', '$urlRouterProvider',
+osukaApp.config(['$stateProvider', '$urlRouterProvider',
 function($stateProvider, $urlRouterProvider) {
 
   // For any unmatched url, redirect to /
@@ -26,4 +26,4 @@ function($stateProvider, $urlRouterProvider) {
 
 }]);
 
-var models = angular.module('gosukaAppModel', ['ngResource']);
+var models = angular.module('osukaAppModel', ['ngResource']);

@@ -13,7 +13,7 @@ var settings = {
   endpoints: {
     'dev': 'http://jsonplaceholder.typicode.com',
     'staging': '',
-    'production': 'http://gosukaapi-v2.elasticbeanstalk.com'
+    'production': ''
   },
 
   endpoint: function() {
@@ -21,8 +21,8 @@ var settings = {
   }
 };
 
-var gosukaApp = angular.module('angularApp', [
-  'gosukaAppModel',
+var osukaApp = angular.module('angularApp', [
+  'osukaAppModel',
   'ngResource',
   'ngRoute',
   'ui.router',

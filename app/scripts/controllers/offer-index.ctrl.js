@@ -1,6 +1,6 @@
 'use strict';
 
-gosukaApp.controller('OfferIndexController', ['$scope', 'Offer',
+osukaApp.controller('OfferIndexController', ['$scope', 'Offer',
   function($scope, Offer) {
 
     init();
