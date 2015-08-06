@@ -3,7 +3,7 @@
 gosukaApp.config(['$stateProvider', '$urlRouterProvider',
 function($stateProvider, $urlRouterProvider) {
 
-    // For any unmatched url, redirect to /
+  // For any unmatched url, redirect to /
   $urlRouterProvider.otherwise(function($injector){
     var $state = $injector.get('$state');
     $state.go('main');
